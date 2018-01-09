@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">About Time</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="size_todo">16dp</string>
+    <string name="height_todo">40dp</string>
+</resources>

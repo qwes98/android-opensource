@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\layout\\dismiss_overlay.xml",
+        "source": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.0.0\\res\\layout\\dismiss_overlay.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\layout\\watch_card_content.xml",
+        "source": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.0.0\\res\\layout\\watch_card_content.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\layout\\confirmation_activity_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\Part10_GridViewPager\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.0.0\\res\\layout\\confirmation_activity_layout.xml"
+    }
+]

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.x240.timemanagement.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/frontImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/time" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="About Time"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/scheduleText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="110dp"
+                android:background="@color/colorAccent"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:text="Schedule"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_date_range_white_24dp"
+                android:drawableLeft="@drawable/ic_date_range_white_24dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawablePadding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/feedbackText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:text="Statistics"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_assessment_white_24dp"
+                android:drawableLeft="@drawable/ic_assessment_white_24dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawablePadding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/settingText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:text="Setting"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_settings_white_24dp"
+                android:drawableLeft="@drawable/ic_settings_white_24dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:drawablePadding="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

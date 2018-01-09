@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\com.android.support-support-v13-20.0.0_9300deae3f052f56dc513e3f6fbbd363f3806f01.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_9b68fa5de2de23d0abf5d20ba3e0a64d64a35d82.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_ef0cc5e60729529f45f822b8ee9e551ab782dc14.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\exploded-aar\com.google.android.support\wearable\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\com.google.android.support-wearable-1.0.0_95e5950b7809258eb7fbd4047ea8ba2f056f0591.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_f670e39e0cbcf034bf3875369596218085451ef2.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\AndroidStudioProjects\Part10_GridViewPager\Wearable\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_19157ce9ee057bb6dce457077f9ddd64871615ca.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="30dp"
+            android:text="Expected Timeline"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:id="@+id/tablelayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    >
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="20dp"
+                                            android:gravity="center"
+                                            android:layout_weight="1"/>
+
+                                        <TextView
+                                            android:text="To-do"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="20dp"
+                                            android:layout_weight="18"
+                                            android:background="@color/colorMenu"
+                                            android:gravity="center"/>
+
+                                </TableRow>
+
+                                <!-- 1min = 1dp -->
+                                <!-- start actula timeline-->
+                                <!-- line -->
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="5:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList500"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList515"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="5:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList530"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList545"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="6:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList600"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList615"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="6:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList630"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList645"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:text="7:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+
+                                                <TextView
+                                                    android:id="@+id/todoList700"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList715"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:text="7:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList730"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList745"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="8:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList800"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList815"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="8:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList830"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList845"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="9:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList900"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList915"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="9:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList930"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList945"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="10:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1000"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1015"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="10:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1030"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1045"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="11:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1100"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1115"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="11:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1130"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1145"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="12:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1200"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1215"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="12:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1230"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1245"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="13:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1300"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1315"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="13:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1330"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1345"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="14:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1400"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1415"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="14:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1430"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1445"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="15:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1500"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1515"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="15:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1530"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1545"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="16:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1600"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1615"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="16:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1630"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1645"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="17:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1700"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1715"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="17:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1730"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1745"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="18:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1800"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1815"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="18:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1830"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1845"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="19:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1900"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1915"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="19:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList1930"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList1945"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="20:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2000"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2015"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="20:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2030"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2045"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="21:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2100"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2115"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="21:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2130"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2145"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="22:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2200"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2215"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="22:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2230"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2245"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="23:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2300"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2315"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="23:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList2330"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList2345"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="0:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList0"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList15"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="0:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList30"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList45"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="1:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList100"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList115"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="1:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList130"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList145"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="2:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList200"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList215"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="2:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList230"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList245"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <!-- line -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#888888"/>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="3:00"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList300"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList315"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                        <TextView
+                                            android:text="3:30"
+                                            android:textColor="@color/colorWrite"
+                                            android:textSize="13dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:gravity="right"
+                                            android:layout_weight="1"/>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList330"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList345"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:orientation="vertical"
+                                            android:layout_weight="18">
+                                                <TextView
+                                                    android:id="@+id/todoList400"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList415"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList430"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="center_horizontal" />
+
+                                                <TextView
+                                                    android:id="@+id/todoList445"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="center_horizontal" />
+                                        </LinearLayout>
+
+                                </TableRow>
+                        </TableLayout>
+                </FrameLayout>
+        </ScrollView>
+
+</LinearLayout>

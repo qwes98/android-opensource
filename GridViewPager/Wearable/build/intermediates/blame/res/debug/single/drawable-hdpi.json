@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bugdroid.png",
+        "source": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\src\\main\\res\\drawable-hdpi\\bugdroid.png"
+    },
+    {
+        "merged": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_swipe_arrow_up.png",
+        "source": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\src\\main\\res\\drawable-hdpi\\ic_swipe_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_swipe_arrow_right.png",
+        "source": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\src\\main\\res\\drawable-hdpi\\ic_swipe_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_swipe_arrow_left.png",
+        "source": "C:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\src\\main\\res\\drawable-hdpi\\ic_swipe_arrow_left.png"
+    }
+]

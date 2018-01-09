@@ -1,0 +1,7 @@
+#Thu Aug 31 00:11:51 KST 2017
+base.0=C\:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cd71ffb0cd04daaa5c0bc9dbda659f42c402e272
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1bc78067201591f0adabd5837714e8c6a17b5a4c\\classes.dex
+base.1=C\:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1bc78067201591f0adabd5837714e8c6a17b5a4c
+file.0=C\:\\Users\\X240\\AndroidStudioProjects\\GridViewPager\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cd71ffb0cd04daaa5c0bc9dbda659f42c402e272\\classes.dex

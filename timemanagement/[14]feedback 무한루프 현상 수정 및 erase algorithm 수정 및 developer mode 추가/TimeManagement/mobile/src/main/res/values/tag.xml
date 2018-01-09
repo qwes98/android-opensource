@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tag">
+        <item>Study</item>
+        <item>Self Development</item>
+        <item>Exercise</item>
+        <item>Leisure</item>
+        <item>Memo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <!-- 안드로이드 디자인 가이드 라인 제공 기본 화면 여백 -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="animation_range">60dp</dimen>
+
+</resources>

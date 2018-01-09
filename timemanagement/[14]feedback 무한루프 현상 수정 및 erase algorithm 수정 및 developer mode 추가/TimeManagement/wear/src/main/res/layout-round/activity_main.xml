@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/action_button_background"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <!--for change Layout-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+
+        <!--progressBar Layout-->
+        <LinearLayout
+            android:id="@+id/progressLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--sleeping check Layout-->
+        <LinearLayout
+            android:id="@+id/sleepingCheckLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/checkSignText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/cancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="7dp"
+                    android:src="@drawable/ic_cancel_sign"/>
+
+                <ImageView
+                    android:id="@+id/okButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+                    android:src="@drawable/ic_ok_sign"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--do finish Layout-->
+        <LinearLayout
+            android:id="@+id/doFinishLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Achievement"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <!--ImageView
+                    android:id="@+id/notstartButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_notstart_button"/-->
+
+                <ImageView
+                    android:id="@+id/doingButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_doing_button"/>
+
+                <ImageView
+                    android:id="@+id/doneButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_done_button"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--main Layout-->
+        <LinearLayout
+            android:id="@+id/mainLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/curTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/doTouch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="Do"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:drawablePadding="3dp"
+                        android:drawableStart="@drawable/ic_access_time_black_24dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/doName"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:gravity="center"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/doTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    android:gravity="center"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/todoTouch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="To-do"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:drawablePadding="3dp"
+                        android:drawableStart="@drawable/ic_alarm_black_24dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/todoName"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:gravity="center"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/todoTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    android:gravity="center"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</android.support.wearable.view.BoxInsetLayout>

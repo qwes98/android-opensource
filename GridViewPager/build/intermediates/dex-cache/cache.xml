@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_547e2556efe573803950532368c58ec898461b87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\69183c90aff3dfc1c7a8c0647dbc4086979869df\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4edab9381f5312b4889ad62e49e5ff6747c29192\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\57ff8e5e2f616f77b537cd99663c6c7764fbcbcc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55c10db6bc449b76cdc3c4baf6da65e55d77ca5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\76c5547c57805b36dd1405dedf9800ec34d0964c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_712ce51df9fbb01c6200426a655730a85afa39e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\b8076fe473a1e58b2b142b3396503270fa66cec9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da8fe41f4e0fb5e0cdad28604d70b60cdc6d36ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\1988c91576df2ee14a9dd26dcc54737fd817bfee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca979787388d414824d8adf71286d2640942d88c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\7bcc6403effc55ee1fb0fc1681e1c9bbf474d9a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d58c6e3d8d1ed1f37be4b4ed3b9209e44a6e2bc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\0698710c63c1e046576b2a450bf11518f73c1e85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b170782b3b887bb5548d033a4880fb06786d210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\5cafed90931cb17c3c48169fd3d825983e1189d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1a514654b347d4ed0f584382cf76ede9445005cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\7d7b4c2b62aabb895d01e22b816b1e8582f6b8cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb77910c1c1adf1d4ab51fb76aaaf9e424cb308c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\4cf4881362970a858b0740af7157370a89408ae9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="772144531b4b5b7bc2711332b7031b36a328a2b5">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9c4355fd6e97a1a32dd0ffd59e4483e1f4a8486\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1a5d2e2d22fe04cbc4a2aa8c61d9357464bbff93">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cd71ffb0cd04daaa5c0bc9dbda659f42c402e272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\0f18412274b11096ac08a91042392fc8e912456d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c997eaa5904b7281f9ca3679ce7d4020f8494332\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1bc78067201591f0adabd5837714e8c6a17b5a4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\b9bbe306215af24b2b9f73336b4e596de17ad947\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b95f2bf44857a158b097e9f80d5d18d69f32584">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67332db59ff87108517bf60dc1643bed4cd8d23d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\9aa4f488326e88522cebd0ed820d6fddd07654d0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cc03ddac6017ba6366944c3eb01efc8751a00a6b">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2cda57358017550b3eb3de64c20a484bf0cd7941\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\X240\.android\build-cache\40ef0360ccfab544df6d47f8400f6759969a0832\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\X240\AndroidStudioProjects\GridViewPager\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e958708d5d5f964659768db1d02de843304a373\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    tools:deviceIds="wear">
+
+        <!-- 2016.02.01. 안드로이드 웨어 xml 구동 방법 변경으로 소스 수정 -->
+        <android.support.wearable.view.BoxInsetLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:fillViewport="true"
+                app:layout_box="all">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.wearable.view.WatchViewStub
+                        android:id="@+id/watch_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:rectLayout="@layout/rect_activity_my"
+                        app:roundLayout="@layout/round_activity_my" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onSuccessActivity"
+                        android:text="Success Activity" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onFailureActivity"
+                        android:text="Failure Activity" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onOpenOnPhoneActivity"
+                        android:text="Open On Phone Activity" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onVoiceRecognize"
+                        android:text="Voice Recognize Activity" />
+
+                    <android.support.wearable.view.CircledImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher"
+                        app:circle_color="@color/blue"
+                        app:circle_radius="@dimen/circle_radius"
+                        app:circle_radius_pressed="@dimen/circle_radius_pressed"
+                        app:circle_padding="@dimen/circle_padding"
+                        app:circle_border_width="@dimen/circle_border_normal_width"
+                        app:circle_border_color="@color/white" />
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onStartTimer"
+                        android:text="Start Timer" />
+
+                    <android.support.wearable.view.DelayedConfirmationView
+                        android:id="@+id/delayed_confirmation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_launcher"
+                        app:circle_color="@color/blue"
+                        app:circle_radius="@dimen/circle_radius"
+                        app:circle_radius_pressed="@dimen/circle_radius_pressed"
+                        app:circle_padding="@dimen/circle_padding"
+                        app:circle_border_width="@dimen/circle_border_normal_width"
+                        app:circle_border_color="@color/white" />
+
+                </LinearLayout>
+            </ScrollView>
+        </android.support.wearable.view.BoxInsetLayout>
+        <android.support.wearable.view.DismissOverlayView
+            android:id="@+id/dismiss_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
